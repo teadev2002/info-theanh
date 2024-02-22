@@ -95,9 +95,9 @@ b{
     display: block;
     justify-content: center;
     align-items: center;
-   
+    margin-bottom: 60%;  
+    /* doi cho nay   */
     
-    /* margin-top: 95%; */
 }
 .inputMoney >.mybtn{
   font-size: 2vh;
@@ -107,6 +107,7 @@ b{
 .inputMoney >.number, .inputMoney >.text{
     padding: 15px 100px;
     width: 100%;
+    font-size: 40px;
 }
 .nhaptien{
     color: white;
@@ -148,8 +149,8 @@ b{
     font-size: 1.5em;
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
-    font-family: cursive;
-    margin-top: 10vh;
+    /* font-family: cursive; */
+    margin-top: 15vh;
    
   }
   
