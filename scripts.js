@@ -52,3 +52,27 @@ function myFunction() {
   function closeBank(){
     document.getElementById('overlayBank').style.display = 'none';
   }
+
+  let MY_BANK = {
+    BANK_ID : "TPBank",
+    ACCOUNT_NO : "04076677401"
+}
+function validateAndHandleNumberInput() {
+    const btn = document.querySelectorAll(".btn");
+    const numberInput = parseFloat(document.getElementById("number-input").value);
+    const content = document.getElementById("content1").value;
+    const paid_price = document.getElementById("paid_price");
+    const paid_content = document.getElementById("paid_content");
+    const qr_img = document.querySelector(".qr_img");
+  if (!isNaN(numberInput) && numberInput >= 1000) {
+    console.log(`Valid number: ${numberInput}`);
+    // Perform any necessary actions on the validated number
+    // paid_price.innerHTML = numberInput;
+    paid_content.innerHTML = "Thanh toán cho HOANG THE ANH SiuCapVipPro" + content;
+    let QR = `https://img.vietqr.io/image/${MY_BANK.BANK_ID}-${MY_BANK.ACCOUNT_NO}-compact2.png?amount=${numberInput}&addInfo=${content}`;
+    qr_img.src = QR;
+
+  } else {
+    alert('lớn hơn hoặc bằng 1k');
+  }
+}

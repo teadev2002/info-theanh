@@ -7,7 +7,8 @@
     <title>My Profile</title>
     <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js">
     <link rel="icon" type="image/jpg" href="img/avatar.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="scripts.js"></script>
 </head>
 <center>
@@ -16,47 +17,59 @@
         <div class="content">
             <img class="ava" src="img/theanh.jpg" alt="">
             <br>
-            <p class="p1">  Thế Anh <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
-              </svg></p>
+            <p class="p1"> Thế Anh <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path
+                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                </svg></p>
             <p class="p2">Welcome to my profile !!!</p>
             <button class="bt" onclick="location.href = 'https://www.facebook.com/profile.php?id=100014317392785' ">
-                    <i> <img   style="width: 9%; " class="fb" src="img/fb.png" alt=""> </i> <b> Facebook  </b> </button> <br>
+                <i> <img style="width: 9%; " class="fb" src="img/fb.png" alt=""> </i> <b> Facebook </b> </button> <br>
             <button class="bt" onclick="openZalo()">
-                    <i> <img style="width: 9%; " src="img/zl.png"> </i>  <b> Zalo </b> </button> <br>
-       
-            <button class="bt" onclick="openMomo()"> 
-                    <i> <img style="width: 9%; "  
-                            src="https://seeklogo.com/images/M/momo-logo-ED8A3A0DF2-seeklogo.com.png" alt=""></i>
-                            <b>   Momo</b> </button> <br>
-            <button  class="bt" onclick="openBank()">  <i> <img
-                            style="width: 12%; "
-                            src="https://media.loveitopcdn.com/3807/logo-tpbank-2.jpg" alt=""></i><b> TPBank</b> </button>
+                <i> <img style="width: 9%; " src="img/zl.png"> </i> <b> Zalo </b> </button> <br>
+
+            <button class="bt" onclick="openMomo()">
+                <i> <img style="width: 9%; " src="https://seeklogo.com/images/M/momo-logo-ED8A3A0DF2-seeklogo.com.png"
+                        alt=""></i>
+                <b> Momo</b> </button> <br>
+            <button class="bt" onclick="openBank()"> <i> <img style="width: 12%; "
+                        src="https://media.loveitopcdn.com/3807/logo-tpbank-2.jpg" alt=""></i><b> TPBank</b> </button>
             <br>
         </div>
         <div class="popup" id="overlayZalo">
             <div class="item">
-                  <button class="btn-copy input-group-text" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
-                  </svg><h3>Copy</h3></button> 
-                <input class="form-control" type="text" value="0777982527" id="myInputNumber" style="width: 30%; font-size: 40px;" readonly> 
-              
-                
+                <button class="btn-copy input-group-text" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                    </svg>
+                    <h3>Copy</h3>
+                </button>
+                <input class="form-control" type="text" value="0777982527" id="myInputNumber"
+                    style="width: 30%; font-size: 40px;" readonly>
+
+
             </div>
             <div class="qr">
                 <img src="img/in4zalo.jpg" alt="">
             </div>
-            <button type="button" class=" btn btn-danger close" onclick="closeZalo()" style="margin: 1vh;">Close</button>
+            <button type="button" class=" btn btn-danger close" onclick="closeZalo()"
+                style="margin: 1vh;">Close</button>
         </div>
 
         <div class="popup" id="overlayMomo">
             <div class="item">
-                  <button class="btn-copy input-group-text" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
-                  </svg><h3>Copy</h3></button> 
-                <input class="form-control" type="text" value="0777982527" id="myInputNumber" style="width: 30%; font-size: 40px;" readonly> 
-              
-                
+                <button class="btn-copy input-group-text" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                    </svg>
+                    <h3>Copy</h3>
+                </button>
+                <input class="form-control" type="text" value="0777982527" id="myInputNumber"
+                    style="width: 30%; font-size: 40px;" readonly>
+
+
             </div>
             <div class="qr">
                 <img src="img/in4momo.jpg" alt="">
@@ -65,7 +78,27 @@
         </div>
 
         <div class="popup" id="overlayBank">
-            <div class="item input-group mb-3" style="width: 50%;">
+            <!-- ========nhập bank============ -->
+            <div class="card">
+                <div class="inputMoney">
+                    <label for="number-input">
+                        <h1 class="nhaptien"><strong>Nhập số tiền</strong> </h1>
+                    </label> <br>
+
+                    <input type="number" class="number form-control" step="1" min="1" id="number-input"> <br>
+                    <input type="text" class="text form-control" placeholder="Nội dung chuyển khoản" id="content1"> <br>
+
+                    <button class="mybtn btn btn-primary" onclick="validateAndHandleNumberInput()">Xuất QR</button>
+                </div>
+           
+            <p><span id="paid_content"></span></p>
+            <div class="qr">
+                <img class="qr_img" src="" />
+            </div>
+        </div>
+            <p><span id="paid_price"></span></p>
+            <!-- ============================== -->
+            <!-- <div class="item input-group mb-3" style="width: 50%;">
                 <button class="btn-copy input-group-text" onclick="myFunction2()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
                   </svg> <h3>Copy</h3></button> 
@@ -76,10 +109,12 @@
             <input class="form-control" type="text" value="HOANG THE ANH" style="width: 50%; font-size: 40px;" readonly> 
             <div class="qr">
                 <img src="img/in4bank.jpg" alt="">
-            </div> 
+            </div>  -->
             <button type="button" class=" btn btn-danger " onclick="closeBank()" style="margin: 1vh;">Close</button>
         </div>
-       
+
+
+
     </body>
 </center>
 
