@@ -68,7 +68,7 @@ function validateAndHandleNumberInput() {
     console.log(`Valid number: ${numberInput}`);
     // Perform any necessary actions on the validated number
     // paid_price.innerHTML = numberInput;
-    paid_content.innerHTML = "Thanh toán cho HOANG THE ANH SiuCapVipPro" + content;
+    paid_content.innerHTML = "Thanh toán cho HOANG THE ANH " + content;
     let QR = `https://img.vietqr.io/image/${MY_BANK.BANK_ID}-${MY_BANK.ACCOUNT_NO}-compact2.png?amount=${numberInput}&addInfo=${content}`;
     qr_img.src = QR;
 
