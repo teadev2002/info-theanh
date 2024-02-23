@@ -35,20 +35,25 @@
     font-size: 4vh;
    font-family: serif;
    margin: 0;
-  
+   font-weight: bold;
 }
  
 .p2{
     font-size: 3vh;
    font-family: serif;
    margin: 0;
+   font-weight: bold;
+  
   
 }
 
 b{
     font-size: 30px;
-   font-family: system-ui;
+   /* font-family: system-ui; */
    font-weight: bolder;
+   color: black;
+   font-weight: bold;
+   font-family: cursive;
 }
  
 .item input, .btn-copy.input-group-text{
@@ -95,13 +100,14 @@ b{
     display: block;
     justify-content: center;
     align-items: center;
-    margin-bottom: 60%;  
+    margin-bottom: 24%;  
     /* doi cho nay   */
     
 }
 .inputMoney >.mybtn{
   font-size: 2vh;
   border-radius: 15px;
+  padding: 1.5vh;
 }
  
 .inputMoney >.number, .inputMoney >.text{

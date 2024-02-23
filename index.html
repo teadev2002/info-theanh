@@ -82,13 +82,13 @@
             <div class="card">
                 <div class="inputMoney">
                     <label for="number-input">
-                        <h1 class="nhaptien"><strong>Nhập số tiền</strong> </h1>
+                        <h1 class="nhaptien"><strong></strong> </h1>
                     </label> <br>
 
-                    <input type="number" class="number form-control" step="1" min="1" id="number-input"> <br>
+                    <input type="number" class="number form-control" placeholder="Nhập số tiền" step="1" min="1" id="number-input"> <br>
                     <input type="text" class="text form-control" placeholder="Nội dung chuyển khoản" id="content1"> <br>
 
-                    <button class="mybtn btn btn-primary" onclick="validateAndHandleNumberInput()">Xuất QR</button>
+                    <button class="mybtn btn btn-success" onclick="validateAndHandleNumberInput()">Xuất QR</button>
                     <p><span id="paid_content"></span></p>
                     <div class="qr">
                         <img class="qr_img" src="" />
